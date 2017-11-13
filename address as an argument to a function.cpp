@@ -20,6 +20,6 @@ void area_peri(float a,float b,float c,float &A,float &P)
 {
     float s,m;
     s=(a+b+c)/2;
-    A=sqrt((s-a)*(s-b)*(s-c));
+    A=sqrt(s*(s-a)*(s-b)*(s-c));
     P=a+b+c;
 }
